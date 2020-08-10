@@ -13,6 +13,7 @@ Link to the report will be added soon.
 Pretrained weights can be downloaded from here: https://drive.google.com/drive/folders/1iYjCekm571GgJbd4m_kT7jNEW05nJkjm?usp=sharing
 
 # Running
+Assuming data is located in the expected path as mentioned in [dataset/README.md!](https://github.com/soumilkanwal80/Anomaly-Detector/blob/master/dataset/README.md)
 ```
 python preprocess.py  # extracts and reshapes each video frame into 171x128 and stores them as a folder of frames, also creates our train-val split.     
 python icfeatures.py  # extract and stores mean pooled object representations 

@@ -25,3 +25,8 @@ python icfeatures.py  # extract and stores mean pooled object representations
 ```
 python train_anomaly.py or python train_binary.py # training models from scratch
 ```
+
+# Citation
+If you find this useful, please cite this work as follows:
+
+Will be updated

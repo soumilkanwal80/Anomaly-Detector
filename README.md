@@ -13,6 +13,8 @@ Link to the report will be added soon.
 Pretrained weights can be downloaded from here: https://drive.google.com/drive/folders/1iYjCekm571GgJbd4m_kT7jNEW05nJkjm?usp=sharing
 
 # Running
-1. python preprocess.py       
-2. python icfeatures.py
-3. python train_anomaly.py/train_binary.py
+```
+python preprocess.py  # extracts and reshapes each video frame into 171x128 and stores them as a folder of frames, also creates our train-val split.     
+python icfeatures.py  # extract and stores mean pooled object representations 
+python train_anomaly.py or python train_binary.py # training models from scratch
+```

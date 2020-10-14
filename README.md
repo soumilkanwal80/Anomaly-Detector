@@ -3,7 +3,7 @@ This repository contains the source code for deep learning based hierarchial ano
 
 Link to the challenge website: https://cityscene.github.io/#/challenge
 
-Link to the report will be added soon.
+Report: https://dl.acm.org/doi/10.1145/3394171.3416302
 
 # Installation
 **Note: this repository requires Python 3.7+ to work**
@@ -29,5 +29,23 @@ python train_anomaly.py or python train_binary.py # training models from scratch
 # Citation
 If you find this useful, please cite this work as follows:
 ```
-Will be updated
+
+@inproceedings{10.1145/3394171.3416302,
+author = {Kanwal, Soumil and Mehta, Vineet and Dhall, Abhinav},
+title = {Large Scale Hierarchical Anomaly Detection and Temporal Localization},
+year = {2020},
+isbn = {9781450379885},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3394171.3416302},
+doi = {10.1145/3394171.3416302},
+abstract = {Abnormal event detection is a non-trivial task in machine learning. The primary reason behind this is that the abnormal class occurs sparsely, and its temporal location may not be available. In this paper, we propose a multiple feature-based approach for CitySCENE challenge-based anomaly detection. For motion and context information, Res3D and Res101 architectures are used. Object-level information is extracted by object detection feature-based pooling. Fusion of three channels above gives relatively high performance on the challenge Test set for the general anomaly task. We also show how our method can be used for temporal localisation of the abnormal activity event in a video.},
+booktitle = {Proceedings of the 28th ACM International Conference on Multimedia},
+pages = {4674–4678},
+numpages = {5},
+keywords = {anomaly detection, convolutional neural networks, CitySCENE},
+location = {Seattle, WA, USA},
+series = {MM '20}
+}
+
 ```

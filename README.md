@@ -13,7 +13,7 @@ Report: https://dl.acm.org/doi/10.1145/3394171.3416302
 Pretrained weights can be downloaded from here: https://drive.google.com/drive/folders/1iYjCekm571GgJbd4m_kT7jNEW05nJkjm?usp=sharing
 
 # Running
-Assuming data is located in the expected path as mentioned in [dataset/README.md](https://github.com/soumilkanwal80/Anomaly-Detector/blob/master/dataset/README.md)
+Assuming data is located in the path as mentioned in [dataset/README.md](https://github.com/soumilkanwal80/Anomaly-Detector/blob/master/dataset/README.md)
 
 ### Data Preprocessing 
 ```
